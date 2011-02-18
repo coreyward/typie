@@ -9,12 +9,8 @@ Usage
     Typie.new_kit :token => 'your_api_token' do
       call_it 'User Website 20'
       add_domains 'localhost', 'example.com'
-      
-      add_font 'Calluna' do
-        include_variations 'n3', 'n4', 'i4', 'n6'
-      end
-      
-      add_font 'Droid Sans', :include_all_variations
+      add_font 'Calluna', :include_variations => ['n3', 'n4', 'i4', 'n6']
+      add_font 'Calluna Sans' # includes all available variations (watch out for large kit sizes)
     end
     #=> 'abcdef' (Typekit Kit ID)
 
