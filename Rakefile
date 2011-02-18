@@ -15,9 +15,9 @@ Jeweler::Tasks.new do |gem|
   gem.name = "typie"
   gem.homepage = "http://github.com/coreyward/typie"
   gem.license = "MIT"
-  gem.summary = %Q{TODO: one-line summary of your gem}
-  gem.description = %Q{TODO: longer description of your gem}
-  gem.email = "coreyward@me.com"
+  gem.summary = %Q{Create Typekit kits for each of your users easily with Typie.}
+  gem.description = %Q{Typie helps you create kits with custom domains for each of your users' custom domains. This allows hosting user websites with badass typography, easily.}
+  gem.email = "corey.atx@gmail.com"
   gem.authors = ["Corey Ward"]
   # Include your dependencies below. Runtime dependencies are required when using your gem,
   # and development dependencies are only needed for development (ie running rake tasks, tests, etc)
